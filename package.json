@@ -1,0 +1,22 @@
+{
+  "name": "arrows-escape-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimalist arrow extraction logic puzzle. Vanilla JS, canvas-rendered, procedurally generated levels.",
+  "scripts": {
+    "start": "python3 -m http.server 5173 --bind 0.0.0.0",
+    "test":  "node test/smoke.mjs"
+  },
+  "keywords": [
+    "puzzle",
+    "logic",
+    "arrows",
+    "game",
+    "vanilla-js",
+    "canvas",
+    "procedural-generation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
